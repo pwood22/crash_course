@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"test"
+			],
+			[
+				"fin",
+				"find_index\tfunction"
+			],
+			[
+				"days",
+				"days_in_month\tfunction"
+			],
+			[
+				"is",
+				"is_leap\tfunction"
+			],
+			[
+				"mo",
+				"month\tparam"
+			],
+			[
+				"month",
+				"month_days\tstatement"
+			],
+			[
+				"hel",
+				"hello_func\tfunction"
+			],
+			[
+				"vie",
+				"views\tmodule"
+			],
+			[
+				"cont",
+				"continue\tkeyword"
+			],
+			[
+				"nu",
+				"num\tstatement"
+			],
+			[
+				"num",
+				"nums\tstatement"
+			],
+			[
+				"w",
+				"wb\tstatement"
+			],
+			[
+				"ope",
+				"openpyxl\tmodule"
+			],
+			[
+				"tup",
+				"tuple_2\tstatement"
+			],
+			[
+				"tu",
+				"tuple_1\tstatement"
+			],
+			[
+				"tuple",
+				"tuple_1\tstatement"
+			],
+			[
+				"tupl",
+				"tuple_1\tstatement"
+			],
+			[
+				"li",
+				"list_2\tstatement"
+			],
+			[
+				"list",
+				"list_1\tstatement"
+			],
+			[
+				"cour",
+				"course_str\tstatement"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"sort",
+				"sorted_courses"
+			],
+			[
+				"in",
+				"int\tclass"
+			],
+			[
+				"n",
+				"name\tstatement"
+			],
+			[
+				"ver",
+				"VERSION"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "print('Imported my_module...')\n\ntest = 'Test String'\n\n\ndef find_index(to_search, target):\n    \"\"\"Find the index of a value ins a sequence\"\"\"\n    for i, value in enumerate(to_search):\n        if value == target:\n            return i\n\n    return -1\n",
+			"file": "my_module.py",
+			"file_size": 247,
+			"file_write_time": 131644589100000000,
+			"settings":
+			{
+				"buffer_size": 247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# import sys\n# sys.path.append('/Users/paulwood/Desktop/My-Modules')\nfrom my_module import find_index, test\n\ncourses = ['History', 'Math', 'Physics', 'CompSci']\n\nindex = find_index(courses, 'Math')\n\n# print(index)\n\nprint(sys.path)\n",
+			"file": "intro.py",
+			"file_size": 162,
+			"file_write_time": 131644599140000000,
+			"settings":
+			{
+				"buffer_size": 231,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ss",
+				"Set Syntax: Python"
+			],
+			[
+				"ssdj",
+				"Set Syntax: Python (Django)"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"brack inde",
+				"Bracketeer: Indent Text"
+			],
+			[
+				"bracke",
+				"Bracketeer: Insert square brackets"
+			],
+			[
+				"brac",
+				"Bracketeer: Insert curly brackets"
+			],
+			[
+				"inse",
+				"Bracketeer: Insert curly brackets"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"prv open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"mark",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ssma",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"",
+				"UI: Select Theme"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"while",
+				"Snippet: while ... end"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+			"pip",
+			"1+3",
+			"cls",
+			"clear",
+			"python"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/paulwood/Documents/Development/Python/crash_course"
+	],
+	"file_history":
+	[
+		"/Users/paulwood/Documents/Development/Python/crash_course/intro.py",
+		"/Users/paulwood/Documents/Development/Python/crash_course/trump_lies.csv",
+		"/Users/paulwood/Documents/Development/Python/crash_course/example.xlsx",
+		"/Users/paulwood/Documents/Development/Python/crash_course/.idea/crash_course.iml",
+		"/Users/paulwood/Documents/Development/Python/crash_course/scrape.py",
+		"/Users/paulwood/Documents/Development/Python/crash_course/pyexcel.py",
+		"/Users/paulwood/Documents/Development/Python/crash_course/test.py",
+		"/Users/paulwood/Documents/Development/Django/website/manage.py",
+		"/Users/paulwood/Documents/Development/Django/website/website/settings.py",
+		"/Users/paulwood/Documents/Development/Django/website/music/views.py",
+		"/Users/paulwood/Documents/Development/Django/website/music/urls.py",
+		"/Users/paulwood/Documents/Development/Django/website/website/urls.py",
+		"/Users/paulwood/Documents/Development/Django/website/music/models.py",
+		"/Users/paulwood/Documents/Development/Django/website/music/apps.py",
+		"/Users/paulwood/Documents/Development/Django/website/db.sqlite3",
+		"/Users/paulwood/Documents/Development/Django/website/music/admin.py",
+		"/Users/paulwood/Documents/Development/Django/website/music/__init__.py",
+		"/Users/paulwood/Documents/Development/Django/website/website/wsgi.py",
+		"/Users/paulwood/Documents/Development/Django/website/website/__init__.py",
+		"/Users/paulwood/Desktop/tfile",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/python3.6.sublime-build",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/Python3.5.sublime-build",
+		"/Users/paulwood/Desktop/test.py",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/BracketFlasher/BracketFlasher.sublime-settings",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/paulwood/Desktop/test.md",
+		"/Users/paulwood/Documents/Development/Python/crash_course/hello_world.py",
+		"/Users/paulwood/Documents/Development/Python/crash_course/.idea/encodings.xml",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/creating.sublime-snippet",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/wheth",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/untitled",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/paulwood/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/paulwood/Desktop/transmission-done",
+		"/Users/paulwood/Desktop/transmission-done.py",
+		"/Users/paulwood/Desktop/PrinceOfPersia/README.txt",
+		"/Users/paulwood/Documents/Work/01 - Jobs/2017-11/ARTINT/ADS-324290/Instructions.txt",
+		"/Users/paulwood/Desktop/seeds.rb",
+		"/Users/paulwood/Documents/Work/01 - Jobs/2016-10/ARTINT/AD-289953/Consignes",
+		"/Users/paulwood/Documents/Development/Xojo/TMan/TMan_model.sql",
+		"/Users/paulwood/Desktop/Accroître la persistance des adultes en formation.mm",
+		"/Users/paulwood/Documents/Work/01 - Jobs/2016-03/ARTINT/AD-271801/consignes",
+		"/Users/paulwood/Documents/Development/Python/helloworld.py",
+		"/Applications/Development/PyCharm.app/Contents/bin/idea.properties",
+		"/Applications/Development/PyCharm.app/Contents/bin/pycharm.vmoptions"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "my_module.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "intro.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1519986281.74,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 313.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.6.sublime-build",
+	"project": "crash_course.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"test.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
